@@ -1,5 +1,4 @@
-FROM /Users/colinlienard/.cache/huggingface/hub/models--mistralai--Mistral-7B-Instruct-v0.3/
-ADAPTER ./adapters
+FROM ./mymodel.gguf
 
 TEMPLATE """{{- if .Messages }}
 {{- range $index, $_ := .Messages }}
