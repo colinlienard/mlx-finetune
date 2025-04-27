@@ -2,10 +2,11 @@
   "name": "mlx-fine-tune",
   "private": true,
   "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   },
-  "peerDependencies": {
+  "devDependencies": {
+    "@types/bun": "latest",
     "typescript": "^5"
   }
 }
