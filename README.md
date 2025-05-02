@@ -32,7 +32,7 @@ mlx_lm.lora \
 --batch-size 1 \
 ```
 
-> ![NOTE]
+> [!NOTE]
 >
 > Convert to quantized if not enough memory while training:
 >
