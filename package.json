@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "type-flag": "^3.0.0"
   },
   "devDependencies": {
     "@types/bun": "latest",

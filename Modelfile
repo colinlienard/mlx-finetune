@@ -1,4 +1,4 @@
-FROM ./mymodel.gguf
+FROM ./mistral-sql.gguf
 
 TEMPLATE """{{- if .Messages }}
 {{- range $index, $_ := .Messages }}
